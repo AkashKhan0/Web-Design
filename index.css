@@ -1,0 +1,1202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    background-image: linear-gradient(#dfe6e9, #81ecec);
+}
+.head-logo{
+    position: absolute;
+    display: inline;
+    left: 90px;
+    top: 12px;
+}
+.head-logo img{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    cursor: pointer;
+}
+span{
+    background-color: red;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.account{
+    position: absolute;
+    right: 20%;
+    color: rgb(102, 100, 102);
+    top: 25px;
+    padding: 3px;
+    cursor: pointer;
+}
+.getStart{
+    position: absolute;
+    right: 7%;
+    top: 20px;
+    padding: 5px 10px;
+    color: rgb(12, 177, 160);
+    border: 2px solid rgb(12, 177, 160);
+    border-radius: 25px;
+}
+.getStart:hover{
+    background-color: rgb(12, 177, 160);
+    color: whitesmoke;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.main-content{
+    width: 100%;
+    min-height: 1500px;
+    background-image: linear-gradient(to right, #e84393 , #6c5ce7);
+}
+.header-one{
+    position: relative;
+    text-align: center;
+}
+.header-one h1{
+    position: absolute;
+    top: 180px;
+    font-size: 50px;
+    left: 90px;
+    padding: 10px;
+    color: white;
+    font-family: aktiv-grotesk,Sans-serif;
+}
+.header-one h3{
+    position: absolute;
+    top: 250px;
+    left: 29%;
+    margin: 10px;
+    font-size: 22px;
+    font-family: var( --e-global-typography-primary-font-family ),Sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    padding: 10px;
+}
+.header-one button{
+    position: absolute;
+    top: 380px;
+    left: 45%;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 18px;
+    border: none;
+    background-color: #00cec9;
+    cursor: pointer;
+}
+.header-one button:hover{
+    background-color: #d63031;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.video-bar{
+    position: absolute;
+    width: 1150px;
+    height: 700px;
+    top: 500px;
+}
+.video{
+    width: 1150px;
+    height: 700px;
+    position: absolute;
+    left: 100px;
+    box-shadow: 0px 20px 30px -20px;
+}
+
+.abc{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    top: 1250px;
+}
+.a{
+    text-align: left;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+.b{
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+.c{
+    text-align: right;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+.a h1{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.b h1{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.c h1{
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.a p{
+    color: whitesmoke;
+    text-align: center;
+}
+.b p{
+    color: whitesmoke;
+    text-align: center;
+}
+.c p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.built{
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+}
+.built h1{
+    display: inline-block;
+    width: 580px;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+    color: grey;
+}
+
+.design{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left{
+    position: absolute;
+    float: left;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+    left: 8%;
+}
+.design-left h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right img{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+}
+
+.design2{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left2{
+    position: absolute;    
+    right: 4%;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+}
+.design-left2 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left2 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left2 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left2 a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left2 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right2 img{
+    position: absolute;
+    left: 8%;
+    float: left;
+    cursor: pointer;
+}
+
+.design3{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 380px;
+}
+.design-left3{
+    position: absolute;
+    float: left;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+    left: 8%;
+}
+.design-left3 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left3 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left3 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left3 a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left3 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right3 img{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+}
+.imagine{
+    width: 800px;
+    margin-left: 300px;
+    display: block;
+    text-align: center;
+}
+.imagine h1{
+    font-size: 38px;
+    color: rgb(82, 80, 80);
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.imagine p{
+    display: inline;
+    font-size: 20px;
+    color: rgb(83, 81, 81);
+    padding: 10px;
+    margin: 10px;
+}
+.imagine h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(199, 60, 60);
+    margin: 50px 10px;
+    cursor: pointer;
+}
+.imagine h4:hover{
+    text-decoration: underline;
+}
+.futuro{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.futuro .lft{
+    position: absolute;
+    left: 5px;
+    z-index: 10;
+}
+.futuro .rght{
+    position: absolute;
+    right: 5px;
+}
+.futuro .vdoto{
+    position: absolute;
+    left: 24.2%;
+    display: inline;
+}
+.wrdprs{
+    width: 100%;
+    height: 350px;
+}
+.wrdprs h1{
+    position: absolute;
+    display: inline;
+    left: 30%;
+    margin-top: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(102, 100, 102);
+    font-weight: 600;
+    z-index: 1;
+}
+.wrdprs img{
+    position: absolute;
+    left: 45.5%;
+    margin-top: 80px;
+}
+.sicon{
+    width: 450px;
+    text-align: center;
+    height: 50px;
+    margin-left: 34.5%;
+    margin-top: -160px;
+    margin-bottom: 230px;
+}
+.sicon h3{
+    font-size: 21px;
+    font-family: serif;
+    font-weight: 100;
+    color: rgb(124, 115, 115);
+    margin: 30px 0px;
+    margin-bottom: 100px;
+}
+.sicon h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(199, 52, 52);
+    display: inline;
+}
+.sicon h4:hover{
+    cursor: pointer;
+    box-shadow: 0px 6px 0px -5px red;
+}
+.slide img{
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+.main-content2{
+    width: 100%;
+    min-height: 700px;
+    background-image: linear-gradient(to right, #e84393 , #6c5ce7);
+}
+
+.design4{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left4{
+    position: absolute;
+    float: left;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+    left: 8%;
+}
+.design-left4 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(210, 211, 214);
+    padding: 5px;
+    margin-top: 100px;
+}
+.design-left4 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(221, 219, 219);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.main-content2 button{
+    padding: 15px 40px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(91, 219, 228);
+    color: rgb(252, 248, 231);
+}
+.main-content2 button:hover{
+    cursor: pointer;
+    background-color: rgb(211, 60, 60);
+    transition: 0.1s all ease;
+    box-shadow: 0px 15px 20px -15px rgb(3, 3, 3);
+}
+.desing-right4 img{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.featurs{
+    width: 100%;
+    height: 50px;
+}
+.featurs h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 58px;
+    font-weight: 100;
+    font-family: aktiv-grotesk,Sans-serif;
+    color: rgb(102, 99, 99);
+}
+
+.design5{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left5{
+    position: absolute;
+    float: left;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+    left: 8%;
+}
+.design-left5 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left5 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left5 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left5 a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left5 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right5 img{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+}
+
+.design6{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left6{
+    position: absolute;    
+    right: 4%;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+}
+.design-left6 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left6 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left6 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left6 a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left6 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right6 img{
+    position: absolute;
+    left: 8%;
+    float: left;
+    cursor: pointer;
+}
+
+
+.design7{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left7{
+    position: absolute;
+    float: left;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+    left: 8%;
+}
+.design-left7 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left7 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left7 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.design-left7 a{
+    text-decoration: none;
+    padding: 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(218, 65, 96);
+}
+.design-left7 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desing-right7 img{
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+}
+
+.design8{
+    max-width: 100%;
+    min-width: 300PX;
+    margin: 100px 5px;
+    padding: 5PX;
+    height: 450px;
+}
+.design-left8{
+    position: absolute;    
+    right: 4%;
+    display: inline;
+    width: 450px;
+    padding: 20px;
+}
+.design-left8 h2{
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(136, 10, 10, 0.568);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left8 h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(40, 54, 117);
+    padding: 5px;
+    margin: 5px;
+}
+.design-left8 p{
+    font-size: 20px;
+    padding: 30px 0px;
+    font-weight: 400;
+    color: rgb(124, 115, 115);
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+.desing-right8 img{
+    position: absolute;
+    left: 8%;
+    float: left;
+    cursor: pointer;
+}
+.truly{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+}
+.truly h1{
+    position: absolute;
+    font-size: 54px;
+    font-weight: lighter;
+    margin-top: 100px;
+    left: 29%;
+    color: rgb(28, 32, 65);
+}
+.truly p{
+    display: inline;
+    position: absolute;
+    left: 19%;
+    width: 900px;
+    font-size: 24px;
+    color: grey;
+    margin-top: 200px;
+}
+.truly h3{
+    position: absolute;
+    font-size: 35px;
+    font-weight: lighter;
+    color: grey;
+    margin-top: 440px;
+    left: 38%;
+}
+
+.fourclm{
+    width: 100%;
+    height: 390px;
+}
+.fourclm .numone{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    margin-left: 190px;
+    margin-top: 45px;
+    margin-right: 30px;
+    float: left;
+    cursor: pointer;
+}
+.fourclm .numone:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.4s all ease;
+}
+.fourclm .numtwo{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    margin: 45px 10px;
+    float: left;
+    cursor: pointer;
+}
+.fourclm .numtwo:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.4s all ease;
+}
+.fourclm .numthree{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    margin: 45px 30px;
+    float: left;
+    cursor: pointer;
+}
+.fourclm .numthree:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.4s all ease;
+}
+.fourclm .numfour{
+    width: 250px;
+    height: 300px;
+    background-color: grey;
+    margin: 45px 10px;
+    float: left;
+    cursor: pointer;
+}
+.fourclm .numfour:hover{
+    box-shadow: 0px 0px 20px grey;
+    transition: 0.4s all ease;
+}
+
+.main-content4{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right, #e84393 , #6c5ce7);
+}
+.main-content4 h1{
+    position: absolute;
+    display: inline;
+    width: 750px;
+    left: 25%;
+    color: rgb(254, 255, 255);
+    margin: 100px 10px;
+    font-size: 50px;
+}
+.main-content4 p{
+    width: 700px;
+    text-align: center;
+    display: inline;
+    float: left;
+    font-size: 21px;
+    color: rgb(207, 200, 200);
+    font-weight: 100;
+    margin-top: 180px;
+    margin-left: 370px;
+}
+.btn_one{
+    position: absolute;
+    padding: 15px 40px;
+    left: 32.5%;
+    top: 350px;
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.btn_one:hover{
+    background-color: white;
+    color: rgb(139, 44, 44);
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.btn_two{
+    position: absolute;
+    padding: 15px 68px;
+    left: 50%;
+    top: 350px;
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(139, 44, 44);
+}
+.btn_two:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(49, 56, 61);
+}
+.table1{
+    width: 120px;
+    height: 500px;
+    padding: 5px;
+    margin-left: 70px;
+    text-align: left;
+}
+.table1 ul .data1{
+    font-weight: bold;
+    color: white;
+    margin: 50px 5px;
+}
+.table1 ul li{
+    list-style-type: none;
+    margin: 20px 5px;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    color: rgb(228, 226, 226);
+    transition: 0.2s all ease;
+}
+.table2{
+    width: 180px;
+    height: 650px;
+    padding: 5px;
+    margin-left: 250px;
+    text-align: left;
+    margin-top: -500px;
+}
+.table2 ul .data2{
+    font-weight: bold;
+    color: white;
+    margin: 50px 5px;
+}
+.table2 ul li{
+    list-style-type: none;
+    margin: 20px 5px;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    color: rgb(228, 226, 226);
+    transition: 0.2s all ease;
+}
+
+.table3{
+    width: 150px;
+    height: 350px;
+    padding: 5px;
+    margin-left: 450px;
+    text-align: left;
+    margin-top: -650px;
+}
+.table3 ul .data3{
+    font-weight: bold;
+    color: white;
+    margin: 50px 5px;
+}
+.table3 ul li{
+    list-style-type: none;
+    margin: 20px 5px;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    color: rgb(228, 226, 226);
+    transition: 0.2s all ease;
+}
+
+.table4{
+    width: 150px;
+    height: 350px;
+    padding: 5px;
+    margin-left: 650px;
+    text-align: left;
+    margin-top: -350px;
+}
+.table4 ul .data4{
+    font-weight: bold;
+    color: white;
+    margin: 50px 5px;
+}
+.table4 ul li{
+    list-style-type: none;
+    margin: 20px 5px;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    color: rgb(228, 226, 226);
+    transition: 0.2s all ease;
+}
+
+.finishing{
+    position: absolute;
+    width: 460px;
+    height: 500px;
+    left: 65%;
+    margin-top: -335px;
+}
+.finishing h3{
+    letter-spacing: -1px;
+    margin: 40px 5px;
+    text-align: left;
+    color: rgb(233, 231, 232);
+}
+.finishing p{
+    margin: 5px;
+    width: 400px;
+    font-size: 18px;
+    color: rgb(156, 154, 154);
+}
+.finishing input{
+    width: 270px;
+    height: 50px;
+    margin: 20px 5px;
+    border: none;
+}
+
+.finishing button{
+    width: 130px;
+    height: 50px;
+    font-weight: 700;
+    border: none;
+    margin-left: -9px;
+    background-color: rgb(44, 212, 156);
+    color: white;
+}
+.finishing button:hover{
+    background-color: rgb(185, 45, 45);
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.para{
+    width: 350px;
+    height: 40px;
+    margin-left: 65%;
+    margin-top: -70px;
+}
+.para p{
+    margin: 5px;
+    color: rgb(196, 192, 192);
+}a{
+    text-decoration: none;
+    color: rgb(71, 71, 216);
+}
+.last_logos{
+    margin-top: 420px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.last_logos img{
+    margin: 5px;
+    cursor: pointer;
+}
+.last_logos p{
+    display: inline;
+    padding: 5px;
+    margin-left: 600px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.menus{
+    position: absolute;
+    text-align: center;
+    left: 15%;
+}
+.menus ul{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.menus ul li{
+    float: left;
+    margin: 0px;
+    padding: 26px;
+}
+.menus ul li:hover{
+    background-color: white;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.menus ul li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.first:hover .tablehover1{
+    opacity: 1;
+    display: block;
+    transition: 0.08s all ease;
+    left: -10px;
+    top: 60px;
+}
+
+.tablehover1{
+    position: absolute;
+    height: 360px;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.336);
+    margin: 10px;
+    left: -1000px;
+    z-index: 20;
+    opacity: 0;
+}
+.tablehover1 ul{
+    list-style-type: none;
+}
+.tablehover1 ul li{
+    background-color: none;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.tablehover1 ul li a{
+    margin-left: -5px;
+    margin-right: 80px;
+}
+.tablehover1 ul li:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid grey;
+    transition: 0.2s all ease;
+
+}
+.tablehover1 ul li:hover a{
+    color: white;
+    transition: 0.2s all ease;
+}
+.tablehover1 ul li a{
+    padding: 10px;
+    color: black;
+}
+
+.tablehover2{
+    position: absolute;
+    height: 385px;
+    width: 180px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.336);
+    margin: 10px;
+    left: -1000px;
+    z-index: 20;
+    opacity: 0;
+}
+.tablehover2 ul{
+    list-style-type: none;
+}
+.tablehover2 ul li{
+    background-color: none;
+    display: block;
+    float: left;
+    padding: 5px;
+    margin-right: 0px;
+}
+.tablehover2 ul li a{
+    display: inline-block;
+    margin-left: 0px;
+}
+.tablehover2 ul li:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.2s all ease;
+
+}
+.tablehover2 ul li:hover a{
+    color: white;
+    transition: 0.2s all ease;
+}
+.tablehover2 ul li a{
+    padding: 10px;
+    color: black;
+}
+.second:hover .tablehover2{
+    opacity: 1;
+    display: block;
+    transition: 0.08s all ease;
+    left: 224px;
+    top: 60px;
+}
+
+
+.tablehover3{
+    position: absolute;
+    height: 310px;
+    width: 170px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.336);
+    margin: 10px;
+    left: -1000px;
+    z-index: 20;
+    opacity: 0;
+}
+.tablehover3 ul{
+    list-style-type: none;
+}
+.tablehover3 ul li{
+    background-color: none;
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 5px;
+}
+.tablehover3 ul li a{
+    display: block;
+    margin-right: 0px;
+}
+.tablehover3 ul li:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.2s all ease;
+
+}
+.tablehover3 ul li:hover a{
+    color: white;
+    transition: 0.2s all ease;
+}
+.tablehover3 ul li a{
+    padding: 10px;
+    display: block;
+    color: black;
+}
+.thired:hover .tablehover3{
+    opacity: 1;
+    transition: 0.08s all ease;
+    left: 368.7px;
+    top: 60px;
+}
